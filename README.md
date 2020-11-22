@@ -10,12 +10,14 @@
   3) Deploy app to netlify/herokuapp
   
 
-## DEMO
+  ### DEMO
   Login Authentication of Okhati's demo is here [Login_Page](https://okhatiloginpage.herokuapp.com/)
   
-## INSTALLATION
+  ### INSTALLATION
   step 1 : install `yarn`
   step 2 : run command `yarn install`
   step 3 : run command `yarn start`
   step 4 : done!!!
+  
+  **Note : You first need to have `node js` installed on your computer
   
