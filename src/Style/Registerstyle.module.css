@@ -1,0 +1,146 @@
+.login {
+    width: 100vw;
+    height: 100vh;
+    background: #009654;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logincontainer {
+    height: 500px;
+    width: 850px;
+    max-width: 1176px;
+    max-height: 746px;
+    display: flex;
+    background: white;
+    border-radius: 10px;
+}
+
+.logincontent {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgba(179, 241, 192, 0.418);
+}
+
+.mainlogo {
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.mainlogo img {
+    width: 120px;
+    height: 30px;
+}
+
+.loginlogo {
+    padding: 10x 20px;
+}
+
+.loginlogo img {
+    height: 310px;
+    width: 340px;
+}
+
+.loginform {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputfield {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.logininput {
+    width: 260px;
+}
+
+.login_btn {
+    padding: 7px 10px;
+    background-color: #009654;
+    border: none;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    width: 80px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.login_btn:hover {
+    background-color: #33b47c;
+}
+
+.signup {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.signup .signup_btn {
+    text-decoration: none;
+    color: #009654;
+    margin-left: 2px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.signup .signup_btn:hover {
+    color: #33b47c;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width : 740px) {
+    .logincontainer {
+        flex-direction: column;
+        height: 100vh;
+        width: 90vw;
+    }
+
+    .logincontent {
+        flex-direction: column;
+        height: 35%;
+        border-radius: 0px;
+        padding: 20px 20px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .loginlogo {
+        margin: 0;
+        padding: 0;
+    }
+
+    .loginlogo img {
+        height: 150px;
+        width: 170px;
+        opacity: 0.8;
+    }
+
+    .loginform {
+        width: 100%;
+        height: 65%;
+        align-items: center;
+    }
+
+    form {
+        width: 90%;
+    }
+    
+    .logininput {
+        width: 100%;
+    }
+}

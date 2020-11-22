@@ -1,0 +1,24 @@
+.home{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #009654;
+}
+
+.homecontainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 5px 50px;
+}
+
+.homeimg img {
+    width: 70px;
+    height: 30px;
+}
+
+.homewelcomemsg{
+    display: flex;
+    justify-content: center;
+}
