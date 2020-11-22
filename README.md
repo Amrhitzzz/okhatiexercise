@@ -1,7 +1,7 @@
 # OKHATI AUTHENTICATION TASKS 
 
   ### About this task
-  This task was done with `react-app`
+  This task was done with `react-app` \
   Task was given by Okhati team as intern task
   
   ### Task Requirement
@@ -14,10 +14,10 @@
   Login Authentication of Okhati's demo is here [Login_Page](https://okhatiloginpage.herokuapp.com/)
   
   ### INSTALLATION
-  step 1 : install `yarn`
-  step 2 : run command `yarn install`
-  step 3 : run command `yarn start`
-  step 4 : done!!!
+  step 1 : install `yarn` \
+  step 2 : run command `yarn install` \
+  step 3 : run command `yarn start` \
+  step 4 : done !!!
   
   **Note : You first need to have `node js` installed on your computer
   
